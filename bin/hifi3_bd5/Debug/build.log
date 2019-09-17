@@ -1,0 +1,34 @@
+**** Incremental Build [Tue, 3 Sep 2019 13:35:12] ****
+ Project: Chain
+ Configuration: hifi3_bd5
+ Build Target: Debug
+********************************
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain\"" -DPROC_hifi3_bd5 -DCONFIG_hifi3_bd5 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Task7_AE/Tables.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Tables.o\"" 
+Time taken: 2540 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain\"" -DPROC_hifi3_bd5 -DCONFIG_hifi3_bd5 --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/main.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/main.o\"" 
+Time taken: 2650 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xc++" -Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= 
+Time taken: 670 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-xc++" -Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RI-2019.1-win32/hifi3_bd5/config --xtensa-core=hifi3_bd5 --xtensa-params= 
+Time taken: 1230 ms 
+
+******* Code size summary *****
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RI-2019.1-win32\\XtensaTools\\bin\\xt-size" -C C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	   1577	      0	      0	      0	   1577	    629	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain
+literal	    192	      0	      0	      0	    192	     c0	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain
+other  	    191	   1588	    420	    296	   2495	    9bf	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain
+Total  	   1960	   1588	    420	    296	   4264	   10a8	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/hifi3_bd5/Debug/Chain
+
+Time taken: 410 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 4.9 secs
+**** Build Finished [Tue, 3 Sep 2019 13:35:17] ****

@@ -1,0 +1,20 @@
+
+<PROJECT>:=Chain
+<CONFIG>:=HiFi_EP5_RTK
+<TARGET>:=Release
+<FEEDBACK>:=FBmode: Off
+
+<TIE_COMPILE>:=
+<PRE_FINAL>:=
+<OBJS>:=[C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/AmplitudeProc.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/BiquadFilter.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/CrossFade.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/EQ.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/Tables.o, C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/main.o]
+<MINSIZE_LINK>:=-Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/Chain.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params=
+<FINAL>:=-Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/Chain -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params=
+
+<COMPILE_START>
+CrossFade.c:=-c -g -O3 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/CrossFade.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/CrossFade.o"
+main.c:=-c -g -O3 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/main.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/main.o"
+EQ.c:=-c -g -O3 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/EQ.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/EQ.o"
+Tables.c:=-c -g -O3 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/Tables.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/Tables.o"
+BiquadFilter.c:=-c -g -O3 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/BiquadFilter.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/BiquadFilter.o"
+AmplitudeProc.c:=-c -g -O3 -fmessage-length=0 -I "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/AmplitudeProc.c" -o "C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Release/AmplitudeProc.o"
+<COMPILE_END>

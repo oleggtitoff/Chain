@@ -1,0 +1,35 @@
+**** Incremental Build [Mon, 16 Sep 2019 15:17:46] ****
+ Project: Chain
+ Configuration: HiFi_EP5_RTK
+ Build Target: Debug
+********************************
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/CrossFade.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/CrossFade.o\"" 
+Warning: requested function F24x2MovIfTrue not inlined into calcFadeGain (edge# 180): incompatible parameter types
+Time taken: 1208 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xcc" -c -g -O0 -fmessage-length=0 -I "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain\"" -DPROC_HiFi_EP5_RTK -DCONFIG_HiFi_EP5_RTK --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/main.c\"" -o "\"C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/main.o\"" 
+Time taken: 1216 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xc++" -Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain.minsize -mlsp=sim -Wl,-r -nostdlib --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= 
+Time taken: 412 ms 
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-xc++" -Wl,@C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/objfiles.list -o C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain -mlsp=sim --xtensa-system=C:/usr/xtensa/XtDevTools/install/builds/RD-2011.3-win32/HiFi_EP5_RTK/config --xtensa-core=HiFi_EP5_RTK --xtensa-params= 
+Time taken: 528 ms 
+
+******* Code size summary *****
+
+"C:\\usr\\xtensa\\XtDevTools\\install\\tools\\RD-2011.3-win32\\XtensaTools\\bin\\xt-size" -C C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain 
+TYPE   	   text	 rodata	   data	    bss	    dec    hex	filename
+code   	  74948	      0	      0	      0	  74948	  124c4	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain
+literal	   1124	      0	      0	      0	   1124	    464	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain
+other  	   1035	      0	   6068	    112	   7215	   1c2f	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain
+Total  	  77107	      0	   6068	    112	  83287	  14557	C:/usr/xtensa/Xplorer-8.0.10-workspaces/workspace/Chain/bin/HiFi_EP5_RTK/Debug/Chain
+
+Time taken: 268 ms 
+
+******* ************** *****
+
+Build successful !!
+Total time taken: 2.64 secs
+**** Build Finished [Mon, 16 Sep 2019 15:17:49] ****

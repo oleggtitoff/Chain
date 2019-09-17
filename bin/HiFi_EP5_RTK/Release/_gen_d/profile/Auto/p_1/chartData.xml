@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<chartData>
+<totals>
+<data category="profile" name="Cycles" value="10614.0">
+<subData name="Branch Delay Cycles" value="1130.0"/>
+<subData name="Interlock Cycles" value="60.0"/>
+<subData name="Other Cycles" value="9424.0"/>
+</data>
+<data category="profile" name="Application Size" value="3064.0">
+<subData name="Text Size" value="1448.0"/>
+<subData name="Read-Only Data Size" value="1556.0"/>
+<subData name="Initialized Data Size" value="0.0"/>
+<subData name="Uninitialized Data Size" value="0.0"/>
+<subData name="Literals Size" value="60.0"/>
+</data>
+<data category="profile" name="Instructions" value="4936.0"/>
+</totals>
+<additionalInfo/>
+</chartData>

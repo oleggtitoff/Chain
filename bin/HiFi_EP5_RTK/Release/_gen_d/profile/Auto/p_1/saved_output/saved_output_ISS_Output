@@ -1,0 +1,32 @@
+C:\usr\xtensa\XtDevTools\install\tools\RD-2011.3-win32\XtensaTools\bin\xt-run --xtensa-core=HiFi_EP5_RTK --xtensa-system=C:\usr\xtensa\XtDevTools\install\builds\RD-2011.3-win32\HiFi_EP5_RTK\config --xtensa-params= --console --summary --client=C:\usr\xtensa\Xplorer-8.0.10-workspaces\workspace\Chain\bin\HiFi_EP5_RTK\Release\_gen_d\profile\Auto\p_1\iss.clientcmds C:\usr\xtensa\Xplorer-8.0.10-workspaces\workspace\Chain\bin\HiFi_EP5_RTK\Release\Chain
+
+Xtensa Core: "HiFi_EP5_RTK"  ISS Version: 9.0.3
+
+Time for Simulation = 0.02 seconds
+
+Current PC = 0x6000113f
+
+Events                           Number  Number
+                                         per 100
+                                         instrs 
+
+Committed instructions            4936 ( 100.00 )
+Taken branches                     563 (  11.41 )
+Exceptions                           3 (   0.06 )
+   WindowOverflow                    2 (   0.04 )
+   WindowUnderflow                   1 (   0.02 )
+Loads                              151 (   3.06 )
+Stores                              50 (   1.01 )
+
+Cycles: total = 10614
+                                                Summed |          Summed
+                                        CPI      CPI   |% Cycle  % Cycle
+Committed instructions          4936 ( 1.0000   1.0000 |  46.50    46.50 )
+Taken branches                  1130 ( 0.2289   1.2289 |  10.65    57.15 )
+Pipeline interlocks               60 ( 0.0122   1.2411 |   0.57    57.72 )
+Exceptions                        15 ( 0.0030   1.2441 |   0.14    57.86 )
+Sync replays                    2145 ( 0.4346   1.6787 |  20.21    78.07 )
+Special instructions            2322 ( 0.4704   2.1491 |  21.88    99.94 )
+Loop overhead                      1 ( 0.0002   2.1493 |   0.01    99.95 )
+Reset                              5 ( 0.0010   2.1503 |   0.05   100.00 )
+
